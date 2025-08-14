@@ -11,7 +11,7 @@ psp = PartySlateProvider()
 
 async def main():
     async with psp:
-        await psp.get_n_articles_elements(500, start_page=13)
+        await psp.get_n_articles_elements(50, start_page=1)
 
 
 if __name__ == "__main__":
