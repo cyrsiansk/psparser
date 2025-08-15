@@ -76,8 +76,8 @@ def process_company(company):
                 'Phone': '',
                 'Email': personal_email,
                 'Minimum spend': min_spend,
-                'Instagram Link': '',
-                'Facebook Link': ''
+                'Instagram Link': instagram,
+                'Facebook Link': facebook
             }
         rows.append(row)
 
