@@ -37,7 +37,7 @@ async def main():
 
             compose(vendors, output_csv="./output/output.csv")
 
-
+        print("Done")
 
 if __name__ == "__main__":
     asyncio.run(main())
